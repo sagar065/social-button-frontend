@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.container{
+    background-color: rgb(188, 188, 231);
+    height: 100vh;
+    width: 100vw;
+   
+}
+.main_content{
+    animation: slidedown 1s ease forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 8rem 0;
+    
+    
+}
+@keyframes slidedown  {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.microsoft_container{
+    width:230px;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(26, 24, 24);
+    padding: 0.5rem 0.9rem;
+    align-items: center;
+    border: solid rgb(17, 17, 17) 0.8px;   
+}
+.microsoft_container:active{
+    box-shadow: 1px 1px 0.1px black;
+}
+.microsoft_container:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.image{
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.microsoft_span{
+    color: white;
+    font-size: 1rem;
+}
+.amazon_container{
+    width:230px;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(180, 151, 45);
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    border: solid rgb(17, 17, 17) 0.8px;   
+}
+.amazon_container:active{
+    box-shadow: 1px 1px 0.1px black;
+}
+.amazon_container:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.amazon_span{
+    color: rgb(5, 5, 5);
+    font-size: 1rem;
+}
+.slack_container{
+    width:230px;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(236, 217, 217);
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    border: solid rgb(175, 156, 156) 0.8px;
+}
+.slack_container:active{
+    box-shadow: 0.1px 0.1px 0.1px black;
+}
+.slack_container:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.slack_span{
+    color: rgb(5, 5, 5);
+    font-size: 1rem;
+    font-weight: 530;
+}
+.facebook_container{
+    width:230px;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(39, 39, 235);
+    padding: 0.5rem 0.9rem;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+.facebook_container:active{
+    box-shadow: 1px 1px 0.1px black;
+}
+.facebook_container:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.facebook_span{
+    color: white;
+    font-size: 1rem;
+}
